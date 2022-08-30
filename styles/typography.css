@@ -1,0 +1,45 @@
+/* Headers */
+h1 {
+  font-size: var(--type-h1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--type-bold);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: calc(var(--spacing) * 2);
+}
+
+h4,
+h5,
+h6 {
+  margin: calc(var(--spacing) * 1.5) 0px;
+}
+
+/* Typography */
+.type-smallest {
+  font-size: var(--type-smallest);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Links and Spans*/
+a {
+  color: inherit;
+  text-decoration: none;
+}

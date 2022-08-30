@@ -1,0 +1,27 @@
+.mw-card {
+  max-width: var(--widths-card);
+}
+
+.mw-card {
+  max-width: var(--widths-tooltip);
+}
+
+.mw-xl {
+  max-width: var(--widths-xl);
+}
+
+.mw-lg {
+  max-width: var(--widths-lg);
+}
+
+.mw-md {
+  max-width: var(--widths-md);
+}
+
+.mw-sm {
+  max-width: var(--widths-sm);
+}
+
+.mw-xs {
+  max-width: var(--widths-xs);
+}

@@ -1,0 +1,79 @@
+/* Stocks */
+.stock-bar {
+  z-index: 1;
+  min-height: 1px;
+  position: absolute;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+.stock-orange {
+  background-color: orange;
+}
+
+.stock-rebecca-purple {
+  background-color: rebeccapurple;
+}
+
+.stock-yellow {
+  background-color: yellow;
+}
+
+.stock-gold {
+  background-color: gold;
+}
+
+.stock-light-blue {
+  background-color: lightblue;
+}
+
+.stock-blue {
+  background-color: var(--palette-common-blue);
+}
+
+.stock-dark-blue {
+  background-color: darkblue;
+}
+
+.stock-light-green {
+  background-color: lightgreen;
+}
+
+.stock-green {
+  background-color: var(--palette-common-green);
+}
+
+.stock-dark-green {
+  background-color: darkgreen;
+}
+
+.stock-light-red {
+  background-color: pink;
+}
+
+.stock-red {
+  background-color: var(--palette-common-red);
+}
+
+.stock-dark-red {
+  background-color: darkred;
+}
+
+.stock-mouse-over {
+  background-color: var(--palette-common-gray);
+}
+
+.stock-mouse-over > .square-tooltip {
+  display: block !important;
+}
+
+.prev-is-bar.is-wick.next-is-bar {
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  background-color: red;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  top: -15px;
+}

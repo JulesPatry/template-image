@@ -1,0 +1,65 @@
+/* Inputs / Buttons */
+/* input:focus {
+  outline: none;
+} */
+
+input[type='date'] {
+  padding: var(--spacing);
+  border-radius: var(--shape-border-radius);
+  font-size: var(--type-small);
+  border: 1px solid var(--palette-common-blue);
+}
+
+button {
+  background-color: var(--palette-common-white);
+  border: 1px solid var(--palette-common-black);
+  padding: var(--spacing);
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: var(--shape-border-radius);
+  color: var(--palette-common-black);
+}
+
+button > svg {
+  margin-bottom: -1px;
+}
+
+button:hover {
+  background-color: var(--palette-common-gray);
+}
+
+button.icon {
+  padding: calc(var(--spacing) * 0.25);
+  padding-bottom: calc(var(--spacing) * 0);
+  border-radius: 50%;
+}
+
+button:disabled {
+  background: var(--palette-common-gray);
+  color: var(--palette-common-light-gray);
+  border-color: var(--palette-common-gray);
+  cursor: not-allowed;
+}
+
+button.red-button {
+  background-color: var(--palette-error-main);
+  border: 1px solid var(--palette-error-main);
+}
+
+button.red-button svg {
+  fill: white;
+}
+
+button.red-button:hover {
+  background-color: var(--palette-error-light);
+}
+
+select {
+  padding: var(--spacing);
+  border-radius: var(--shape-border-radius);
+  font-size: var(--type-small);
+  background-color: var(--palette-common-white);
+  color: var(--palette-common-black);
+  border: 1px solid var(--palette-common-black);
+  appearance: none;
+}

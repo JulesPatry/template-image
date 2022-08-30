@@ -1,0 +1,30 @@
+/* Lists */
+dt {
+  font-weight: var(--type-bold);
+}
+dd {
+  margin-top: calc(var(--spacing) / 2);
+  margin-bottom: calc(var(--spacing) * 1.5);
+}
+
+/* Menu */
+.menu ul {
+  background-color: var(--palette-common-white);
+  max-width: max-content;
+  padding: calc(var(--spacing) * 0.5);
+  border-radius: var(--shape-border-radius);
+  border: 1px solid;
+}
+
+.menu li {
+  list-style: none;
+  cursor: pointer;
+  padding: calc(var(--spacing) * 0.5);
+  margin-bottom: calc(var(--spacing) * 0.5);
+  border-radius: var(--shape-border-radius);
+  font-size: var(--type-smallest);
+}
+
+.menu li:hover {
+  background-color: var(--palette-common-gray);
+}
